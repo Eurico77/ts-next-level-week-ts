@@ -6,7 +6,7 @@
   "author": "Eurico Magalhães <euricomagalhaes61@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": ""
+    "dev": "ts-node-dev --transpile-only --ignore-watch node_modlues src/server.ts "
   },
   "dependencies": {
     "express": "^4.17.1"
