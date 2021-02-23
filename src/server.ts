@@ -1,11 +1,10 @@
-import express from 'express'
-const server = express();
-const PORT = 4040
+import app from './app'
+
+const PORT = 8081
 
 
-server.listen(PORT, () => {
+app.listen(PORT, () => {
     console.log(`server iniciado na porta ${PORT}`);
 
 })
 
-export default server
