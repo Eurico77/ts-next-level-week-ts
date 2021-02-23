@@ -5,5 +5,7 @@ const PORT = 4040
 
 server.listen(PORT, () => {
     console.log(`server iniciado na porta ${PORT}`);
-    
+
 })
+
+export default server
