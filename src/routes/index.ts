@@ -1,11 +1,8 @@
 import { Router } from 'express'
+import userRoutes from './userRoutes'
 
-const route = Router()
+const router = Router()
 
-route.get('', (req, res) => {
-    console.log('rodando');
+router.use('/users', userRoutes)
 
-})
-
-
-export default route
+export default router
