@@ -1,0 +1,11 @@
+{
+  "name": "ts-next-level-week-ts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Eurico77/ts-next-level-week-ts.git",
+  "author": "Eurico Magalhães <euricomagalhaes61@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
