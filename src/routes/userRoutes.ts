@@ -4,5 +4,5 @@ const userRoutes = Router()
 
 userRoutes.post('', UserController.create)
 
-export default userRoutes
+export {userRoutes}
 
