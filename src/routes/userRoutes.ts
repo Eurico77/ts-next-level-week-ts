@@ -1,9 +1,8 @@
-import {Router }from 'express'
+import { Router } from 'express'
+import { UserController } from '../controllers/UserController'
 const userRoutes = Router()
 
-userRoutes.get('', (req, res) => {
-    return res.json({ message: true })
-}) 
+userRoutes.post('', UserController.create)
 
 export default userRoutes
 
