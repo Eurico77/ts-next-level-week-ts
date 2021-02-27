@@ -1,14 +1,14 @@
 {
   "name": "ts-next-level-week-ts",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "app.js",
   "repository": "git@github.com:Eurico77/ts-next-level-week-ts.git",
   "author": "Eurico Magalhães <euricomagalhaes61@gmail.com>",
   "license": "MIT",
   "scripts": {
     "dev": "ts-node-dev --transpile-only --ignore-watch node_modlues src/server.ts ",
     "typeorm": "node --require ts-node/register ./node_modules/typeorm/cli.js",
-    "test": "NODE_ENV=test jest"
+    "test": "NODE_ENV=test jest --detectOpenHandles --forceExit"
   },
   "dependencies": {
     "express": "^4.17.1",
